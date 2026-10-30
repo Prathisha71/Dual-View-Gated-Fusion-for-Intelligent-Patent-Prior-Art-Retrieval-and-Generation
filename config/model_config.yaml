@@ -1,0 +1,40 @@
+tfidf:
+  max_features: 25000
+  ngram_range: [1, 2]
+  min_df: 3
+  max_df: 0.9
+  sublinear_tf: true
+
+bm25:
+  k1: 1.5
+  b: 0.75
+
+bge_m3:
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  max_length: 512
+  batch_size: 32
+  normalize_embeddings: true
+  fallback_model: "sentence-transformers/all-MiniLM-L6-v2"
+
+pafir:
+  fusion_type: "gated"  # choices: simple_avg, weighted_avg, projection, gated
+  context_weight: 0.5
+  claim_weight: 0.5
+  embedding_dim: 1024  # default BGE-M3 dim or adapted dim
+
+classification:
+  cpc_level: "subclass"  # e.g., H04L, G06F
+  loss_type: "focal"  # choices: bce, focal
+  focal_alpha: 0.25
+  focal_gamma: 2.0
+  learning_rate: 0.001
+  batch_size: 32
+  epochs: 10
+  dropout: 0.3
+  threshold_tuning_step: 0.02
+
+retrieval:
+  faiss_index_type: "IndexFlatIP"  # choices: IndexFlatIP, HNSW, IVF
+  top_k_candidates: 50
+  rerank_top_k: 10
+  soft_cpc_boost: 0.2

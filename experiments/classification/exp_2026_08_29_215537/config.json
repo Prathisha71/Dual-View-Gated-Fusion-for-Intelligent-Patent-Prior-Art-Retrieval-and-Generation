@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026_08_29_215537",
+  "dataset_split": {
+    "train": 4087,
+    "val": 605,
+    "test": 308
+  },
+  "cpc_classes": [
+    "H04L",
+    "G06F",
+    "A61K",
+    "C07D",
+    "H01L",
+    "G06Q",
+    "G06N",
+    "B60L",
+    "E04B",
+    "F02M",
+    "G01N",
+    "H02J",
+    "A61B",
+    "C08G",
+    "H04W"
+  ],
+  "embedding_dim": 384,
+  "best_threshold": 0.35
+}

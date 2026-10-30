@@ -1,0 +1,4 @@
+Split,Number of Patents,Date Range,Unique CPC Labels,Total Citations,Avg Citations/Patent
+TRAIN,4087,2010-01-01 to 2022-12-31,15,5675,1.39
+VAL,605,2023-01-04 to 2024-12-31,15,815,1.35
+TEST,308,2025-01-01 to 2025-12-31,15,433,1.41

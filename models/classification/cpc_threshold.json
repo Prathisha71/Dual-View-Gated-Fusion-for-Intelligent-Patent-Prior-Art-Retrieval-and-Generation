@@ -1,0 +1,15 @@
+{
+  "optimal_threshold": 0.3,
+  "validation_micro_f1": 0.63768115941979,
+  "metrics": {
+    "micro_precision": 0.6103404791929374,
+    "micro_recall": 0.6675862068965508,
+    "micro_f1": 0.63768115941979,
+    "macro_precision": 0.48883292823468205,
+    "macro_recall": 0.46203923664727264,
+    "macro_f1": 0.45029036366999187,
+    "weighted_f1": 0.62749331910824,
+    "hamming_loss": 0.02482509591514331,
+    "subset_accuracy": 0.6878808395396073
+  }
+}

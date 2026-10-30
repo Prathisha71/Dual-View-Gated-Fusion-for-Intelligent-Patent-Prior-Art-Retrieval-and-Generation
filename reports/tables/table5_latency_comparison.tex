@@ -1,0 +1,17 @@
+\begin{table}
+\caption{End-to-End Pipeline Latency Benchmarks}
+\label{tab:latency}
+\begin{tabular}{lcccccc}
+\toprule
+Pipeline Component & Batch Size & Mean Latency (ms) & p95 Latency (ms) & Corpus Size & Top-K & Full Query \\
+\midrule
+Dual-View Embedding Generation & 16.000000 & 18.400000 & 24.100000 & NaN & NaN & NaN \\
+PAFIR Learnable Gated Fusion & 16.000000 & 2.100000 & 3.200000 & NaN & NaN & NaN \\
+CPC Multi-Label Head Prediction & 1.000000 & 4.500000 & 6.800000 & NaN & NaN & NaN \\
+FAISS Dense Index Search (Top-50) & NaN & 1.800000 & 2.900000 & 5,000 & NaN & NaN \\
+Soft CPC Score Guidance & NaN & 1.200000 & 1.900000 & NaN & 50 & NaN \\
+Cross-Encoder Candidate Reranking & NaN & 14.500000 & 21.000000 & NaN & 50 -> 10 & NaN \\
+Complete End-to-End Search Pipeline & NaN & 42.500000 & 58.000000 & NaN & NaN & 1.000000 \\
+\bottomrule
+\end{tabular}
+\end{table}

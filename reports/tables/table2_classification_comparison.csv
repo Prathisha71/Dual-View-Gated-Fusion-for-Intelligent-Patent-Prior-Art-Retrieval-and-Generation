@@ -1,0 +1,5 @@
+Representation Model,Micro Precision,Micro Recall,Micro F1,Macro F1,Weighted F1,Hamming Loss,Precision@1,Recall@1
+TF_IDF_Linear,0.8678,0.2323,0.3665,0.1591,0.3444,0.0300,0.0000,0.0000
+Context_Only_MiniLM,0.3668,0.2987,0.3293,0.2693,0.3520,0.0454,0.0000,0.0000
+Claim_Only_MiniLM,0.3017,0.2323,0.2625,0.2116,0.2917,0.0487,0.0000,0.0000
+PAFIR_Fused_FocalLoss,0.3558,0.2920,0.3208,0.2703,0.3474,0.0461,0.0000,0.0000

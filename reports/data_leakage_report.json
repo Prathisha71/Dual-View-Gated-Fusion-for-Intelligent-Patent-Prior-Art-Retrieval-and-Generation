@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-08-30T00:12:15.199046",
+  "splits_audited": {
+    "train_size": 2715,
+    "val_size": 1477,
+    "test_size": 808
+  },
+  "checks": {
+    "no_duplicate_patent_ids": {
+      "passed": true,
+      "train_val_overlap": 0,
+      "train_test_overlap": 0,
+      "val_test_overlap": 0
+    },
+    "no_duplicate_text_train_test": {
+      "passed": true,
+      "text_overlap_count": 0
+    },
+    "temporal_ordering_enforced": {
+      "passed": true,
+      "train_max_date": "2015-12-31",
+      "val_min_date": "2016-01-04",
+      "val_max_date": "2016-12-30",
+      "test_min_date": "2017-01-03"
+    },
+    "no_future_prior_art_citations": {
+      "passed": true,
+      "future_citation_violations": 0
+    },
+    "threshold_tuning_isolated": {
+      "passed": true,
+      "detail": "Classification threshold tuning restricted exclusively to validation split."
+    }
+  },
+  "all_checks_passed": true
+}

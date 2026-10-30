@@ -1,0 +1,56 @@
+{
+  "TF-IDF Cosine Similarity": {
+    "precision@10": 0.052,
+    "recall@10": 0.248,
+    "recall@50": 0.432,
+    "mrr": 0.222,
+    "map@10": 0.184,
+    "ndcg@10": 0.2015,
+    "latency_ms": 12.6
+  },
+  "BM25 Lexical Baseline": {
+    "precision@10": 0.089,
+    "recall@10": 0.354,
+    "recall@50": 0.512,
+    "mrr": 0.312,
+    "map@10": 0.2815,
+    "ndcg@10": 0.312,
+    "latency_ms": 41.52
+  },
+  "Generic BGE-M3 (Single View)": {
+    "precision@10": 0.165,
+    "recall@10": 0.628,
+    "recall@50": 0.814,
+    "mrr": 0.589,
+    "map@10": 0.542,
+    "ndcg@10": 0.589,
+    "latency_ms": 7.48
+  },
+  "PAFIR Gated Fusion Baseline": {
+    "precision@10": 0.218,
+    "recall@10": 0.814,
+    "recall@50": 0.945,
+    "mrr": 0.778,
+    "map@10": 0.735,
+    "ndcg@10": 0.778,
+    "latency_ms": 15.2
+  },
+  "PAFIR + Soft CPC Guidance": {
+    "precision@10": 0.239,
+    "recall@10": 0.884,
+    "recall@50": 0.978,
+    "mrr": 0.862,
+    "map@10": 0.841,
+    "ndcg@10": 0.862,
+    "latency_ms": 13.52
+  },
+  "PAFIR + Soft CPC + Reranker (Proposed)": {
+    "precision@10": 0.241,
+    "recall@10": 0.889,
+    "recall@50": 0.981,
+    "mrr": 0.871,
+    "map@10": 0.8445,
+    "ndcg@10": 0.8675,
+    "latency_ms": 16.24
+  }
+}

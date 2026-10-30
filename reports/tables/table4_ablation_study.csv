@@ -1,0 +1,15 @@
+Ablation Category,Variant,Recall@10,MAP@10,nDCG@10
+Text Input View,Abstract Only,0.0,0.0,0.0
+Text Input View,Claims Only,0.0,0.0,0.0
+Text Input View,Title + Abstract,0.0,0.0,0.0
+Text Input View,Title + Independent Claims,0.0,0.0,0.0
+Text Input View,Full Title + Abstract + Claims,0.0,0.0,0.0
+Fusion Mechanism,Context View Only,0.0,0.0,0.0
+Fusion Mechanism,Claim View Only,0.0,0.0,0.0
+Fusion Mechanism,Simple Average Fusion,0.0,0.0,0.0
+Fusion Mechanism,Weighted Average Fusion (0.5/0.5),0.0,0.0,0.0
+Fusion Mechanism,PAFIR Learnable Gated Fusion (Proposed),0.0,0.0,0.0
+Retrieval Pipeline,PAFIR (No CPC Guidance),0.0,0.0,0.0
+Retrieval Pipeline,PAFIR + Hard CPC Filtering,0.0,0.0,0.0
+Retrieval Pipeline,PAFIR + Soft CPC Guidance (Proposed),0.0,0.0,0.0
+Retrieval Pipeline,PAFIR + Soft CPC + Cross-Encoder Reranker,0.0,0.0,0.0

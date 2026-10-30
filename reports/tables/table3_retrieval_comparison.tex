@@ -1,0 +1,16 @@
+\begin{table}
+\caption{Prior Art Retrieval Method Comparison}
+\label{tab:retrieval_comp}
+\begin{tabular}{lccccccc}
+\toprule
+Retrieval Method / Strategy & Precision@10 & Recall@10 & Recall@50 & MRR & MAP@10 & nDCG@10 & Latency (ms) \\
+\midrule
+TF-IDF Cosine Similarity & 0.005200 & 0.017300 & 0.114700 & 0.022200 & 0.004400 & 0.010700 & 12.660000 \\
+BM25 Lexical Baseline & 0.003900 & 0.014100 & 0.084400 & 0.009600 & 0.001900 & 0.006200 & 185.800000 \\
+Generic BGE-M3 (Single View) & 0.002600 & 0.016200 & 0.112600 & 0.010700 & 0.001900 & 0.005700 & 13.980000 \\
+PAFIR Gated Fusion Baseline & 0.002600 & 0.056200 & 0.112600 & 0.010700 & 0.031900 & 0.005700 & 13.980000 \\
+PAFIR + Soft CPC Guidance & 0.005200 & 0.023800 & 0.120100 & 0.017700 & 0.004800 & 0.011300 & 15.530000 \\
+PAFIR + Soft CPC + Reranker (Proposed) & 0.006500 & 0.036800 & 0.036800 & 0.011700 & 0.006000 & 0.014900 & 14.960000 \\
+\bottomrule
+\end{tabular}
+\end{table}

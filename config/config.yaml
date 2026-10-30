@@ -1,0 +1,26 @@
+project:
+  name: "PAFIR Patent AI Framework"
+  version: "1.0.0"
+  seed: 42
+  dev_mode: true
+  full_mode: false
+  target_years:
+    min: 2010
+    max: 2025
+  sample_size_dev: 5000
+  sample_size_full: 100000
+
+paths:
+  raw_data: "data/raw"
+  interim_data: "data/interim"
+  processed_data: "data/processed"
+  splits_data: "data/splits"
+  embeddings: "data/embeddings"
+  indexes: "data/indexes"
+  experiments: "experiments"
+  models: "models"
+  reports: "reports"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

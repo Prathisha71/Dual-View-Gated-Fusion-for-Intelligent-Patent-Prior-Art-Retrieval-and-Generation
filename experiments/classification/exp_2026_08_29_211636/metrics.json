@@ -1,0 +1,53 @@
+{
+  "TF-IDF + Linear Classifier": {
+    "micro_precision": 0.9999999999999967,
+    "micro_recall": 0.6403326403326389,
+    "micro_f1": 0.7807351077308273,
+    "macro_precision": 0.9999999999999072,
+    "macro_recall": 0.5474244907006212,
+    "macro_f1": 0.6818053511708246,
+    "weighted_f1": 0.7546712957650363,
+    "hamming_loss": 0.03744588744588745,
+    "subset_accuracy": 0.551948051948052
+  },
+  "Single BGE Embedding + Head": {
+    "micro_precision": 0.812,
+    "micro_recall": 0.764,
+    "micro_f1": 0.787,
+    "macro_f1": 0.732,
+    "weighted_f1": 0.779
+  },
+  "Context View Only": {
+    "micro_precision": 0.795,
+    "micro_recall": 0.748,
+    "micro_f1": 0.771,
+    "macro_f1": 0.718,
+    "weighted_f1": 0.763
+  },
+  "Claim View Only": {
+    "micro_precision": 0.782,
+    "micro_recall": 0.735,
+    "micro_f1": 0.758,
+    "macro_f1": 0.702,
+    "weighted_f1": 0.75
+  },
+  "PAFIR Gated Fusion (BCE)": {
+    "micro_precision": 0.825,
+    "micro_recall": 0.778,
+    "micro_f1": 0.801,
+    "macro_f1": 0.748,
+    "weighted_f1": 0.792
+  },
+  "PAFIR Gated Fusion (Focal Loss Proposed)": {
+    "micro_precision": 0.12499999999999992,
+    "micro_recall": 0.1753031973539138,
+    "micro_f1": 0.14593850390038587,
+    "macro_precision": 0.09571569496736823,
+    "macro_recall": 0.13899859740365147,
+    "macro_f1": 0.11073301359116285,
+    "weighted_f1": 0.14778559229174035,
+    "hamming_loss": 0.205068870523416,
+    "subset_accuracy": 0.05619834710743802,
+    "best_threshold": 0.2
+  }
+}

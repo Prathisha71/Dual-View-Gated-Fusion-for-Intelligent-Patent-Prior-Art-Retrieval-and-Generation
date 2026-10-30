@@ -1,0 +1,15 @@
+\begin{table}
+\caption{CPC Multi-Label Classification Benchmarks}
+\label{tab:classification_comp}
+\begin{tabular}{lccccccccc}
+\toprule
+Model Representation / Loss & Micro Precision & Micro Recall & Micro F1 & Macro Precision & Macro Recall & Macro F1 & Weighted F1 & Hamming Loss & Subset Accuracy \\
+\midrule
+TF-IDF + Linear Classifier & 1.000000 & 0.640300 & 0.780700 & 1.000000 & 0.547400 & 0.681800 & 0.754700 & 0.037400 & 0.551900 \\
+Context View Only & 1.000000 & 0.667000 & 0.800300 & 1.000000 & 0.597900 & 0.737600 & 0.787500 & 0.033300 & 0.596700 \\
+Claim View Only & 0.998300 & 0.660400 & 0.795000 & 0.999200 & 0.589600 & 0.730100 & 0.781600 & 0.034000 & 0.590100 \\
+PAFIR Gated Fusion (BCE Loss) & 1.000000 & 0.667000 & 0.800300 & 1.000000 & 0.597900 & 0.737600 & 0.787500 & 0.033300 & 0.596700 \\
+PAFIR Gated Fusion (Focal Loss Proposed) & 0.990400 & 0.640300 & 0.777800 & 0.981400 & 0.547400 & 0.678500 & 0.752000 & 0.038100 & 0.545500 \\
+\bottomrule
+\end{tabular}
+\end{table}

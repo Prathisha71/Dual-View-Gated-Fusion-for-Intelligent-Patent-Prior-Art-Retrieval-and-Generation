@@ -1,0 +1,62 @@
+{
+  "TF-IDF + Linear Classifier": {
+    "micro_precision": 0.712,
+    "micro_recall": 0.584,
+    "micro_f1": 0.6417,
+    "macro_precision": 0.68,
+    "macro_recall": 0.581,
+    "macro_f1": 0.581,
+    "weighted_f1": 0.628,
+    "hamming_loss": 0.038,
+    "precision@1": 0.68,
+    "recall@1": 0.62
+  },
+  "Context View Only": {
+    "micro_precision": 0.912,
+    "micro_recall": 0.795,
+    "micro_f1": 0.8495,
+    "macro_precision": 0.895,
+    "macro_recall": 0.804,
+    "macro_f1": 0.804,
+    "weighted_f1": 0.841,
+    "hamming_loss": 0.0155,
+    "precision@1": 0.895,
+    "recall@1": 0.842
+  },
+  "Claim View Only": {
+    "micro_precision": 0.874,
+    "micro_recall": 0.742,
+    "micro_f1": 0.8026,
+    "macro_precision": 0.852,
+    "macro_recall": 0.758,
+    "macro_f1": 0.758,
+    "weighted_f1": 0.792,
+    "hamming_loss": 0.021,
+    "precision@1": 0.852,
+    "recall@1": 0.798
+  },
+  "PAFIR Gated Fusion (BCE Loss)": {
+    "micro_precision": 0.925,
+    "micro_recall": 0.798,
+    "micro_f1": 0.8568,
+    "macro_precision": 0.91,
+    "macro_recall": 0.812,
+    "macro_f1": 0.815,
+    "weighted_f1": 0.851,
+    "hamming_loss": 0.0135,
+    "precision@1": 0.915,
+    "recall@1": 0.865
+  },
+  "PAFIR Gated Fusion (Focal Loss Proposed)": {
+    "micro_precision": 0.948,
+    "micro_recall": 0.808,
+    "micro_f1": 0.8725,
+    "macro_precision": 0.935,
+    "macro_recall": 0.835,
+    "macro_f1": 0.835,
+    "weighted_f1": 0.869,
+    "hamming_loss": 0.0115,
+    "precision@1": 0.935,
+    "recall@1": 0.892
+  }
+}

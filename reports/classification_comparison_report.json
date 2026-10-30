@@ -1,0 +1,46 @@
+{
+  "TF_IDF_Linear": {
+    "micro_precision": 0.8677685950413152,
+    "micro_recall": 0.23230088495575169,
+    "micro_f1": 0.3664921465965241,
+    "macro_precision": 0.2989411206077695,
+    "macro_recall": 0.10951847286808013,
+    "macro_f1": 0.15912258125578324,
+    "weighted_f1": 0.34438827203137207,
+    "hamming_loss": 0.02995049504950495,
+    "subset_accuracy": 0.655940594059406
+  },
+  "Context_Only_MiniLM": {
+    "micro_precision": 0.3668478260869555,
+    "micro_recall": 0.2986725663716807,
+    "micro_f1": 0.32926829268243124,
+    "macro_precision": 0.37535955530533205,
+    "macro_recall": 0.28526394794988963,
+    "macro_f1": 0.26925120969531613,
+    "weighted_f1": 0.35203709074015027,
+    "hamming_loss": 0.04537953795379538,
+    "subset_accuracy": 0.4591584158415842
+  },
+  "Claim_Only_MiniLM": {
+    "micro_precision": 0.3017241379310336,
+    "micro_recall": 0.23230088495575169,
+    "micro_f1": 0.26249999999950774,
+    "macro_precision": 0.299841814681597,
+    "macro_recall": 0.23012760479001912,
+    "macro_f1": 0.21159407672112757,
+    "weighted_f1": 0.29173783785327717,
+    "hamming_loss": 0.04867986798679868,
+    "subset_accuracy": 0.43564356435643564
+  },
+  "PAFIR_Fused_FocalLoss": {
+    "micro_precision": 0.3557951482479775,
+    "micro_recall": 0.29203539823008784,
+    "micro_f1": 0.32077764276985643,
+    "macro_precision": 0.37733349905910757,
+    "macro_recall": 0.2865225151699817,
+    "macro_f1": 0.27026106383820875,
+    "weighted_f1": 0.34741672728971595,
+    "hamming_loss": 0.046122112211221124,
+    "subset_accuracy": 0.45173267326732675
+  }
+}

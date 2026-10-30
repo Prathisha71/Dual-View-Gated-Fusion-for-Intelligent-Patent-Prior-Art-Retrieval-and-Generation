@@ -1,0 +1,7 @@
+Retrieval Method / Strategy,Precision@10,Recall@10,Recall@50,MRR,MAP@10,nDCG@10,Latency (ms)
+TF-IDF Cosine Similarity,0.0520,0.2480,0.4320,0.2220,0.1840,0.2015,12.60
+BM25 Lexical Baseline,0.0890,0.3540,0.5120,0.3120,0.2815,0.3120,41.52
+Generic BGE-M3 (Single View),0.1650,0.6280,0.8140,0.5890,0.5420,0.5890,7.48
+PAFIR Gated Fusion Baseline,0.2180,0.8140,0.9450,0.7780,0.7350,0.7780,15.20
+PAFIR + Soft CPC Guidance,0.2390,0.8840,0.9780,0.8620,0.8410,0.8620,13.52
+PAFIR + Soft CPC + Reranker (Proposed),0.2410,0.8890,0.9810,0.8710,0.8445,0.8675,16.24

@@ -1,0 +1,20 @@
+temporal_split:
+  train_years: [2000, 2015]
+  val_years: [2016, 2016]
+  test_years: [2017, 2025]
+
+columns:
+  patent_id: "patent_id"
+  title: "title"
+  abstract: "abstract"
+  claims: "claims"
+  independent_claims: "independent_claims"
+  cpc_subclasses: "cpc_subclasses"
+  primary_cpc: "primary_cpc"
+  grant_date: "grant_date"
+  cited_patent_ids: "cited_patent_ids"
+
+cpc_frequency_thresholds:
+  frequent_min: 50
+  medium_min: 10
+  rare_max: 9

@@ -1,0 +1,56 @@
+{
+  "train": {
+    "split_name": "train",
+    "number_of_patents": 4087,
+    "date_range": [
+      "2010-01-01",
+      "2022-12-31"
+    ],
+    "number_of_cpc_labels": 15,
+    "total_citations": 5675,
+    "avg_citations_per_patent": 1.3885490579887447,
+    "top_cpc_distribution": {
+      "H04L": 1071,
+      "G06F": 692,
+      "A61K": 542,
+      "C07D": 451,
+      "G06Q": 407
+    }
+  },
+  "val": {
+    "split_name": "val",
+    "number_of_patents": 605,
+    "date_range": [
+      "2023-01-04",
+      "2024-12-31"
+    ],
+    "number_of_cpc_labels": 15,
+    "total_citations": 815,
+    "avg_citations_per_patent": 1.3471074380165289,
+    "top_cpc_distribution": {
+      "H04L": 176,
+      "G06F": 106,
+      "A61K": 71,
+      "C07D": 68,
+      "H01L": 56
+    }
+  },
+  "test": {
+    "split_name": "test",
+    "number_of_patents": 308,
+    "date_range": [
+      "2025-01-01",
+      "2025-12-31"
+    ],
+    "number_of_cpc_labels": 15,
+    "total_citations": 433,
+    "avg_citations_per_patent": 1.405844155844156,
+    "top_cpc_distribution": {
+      "H04L": 87,
+      "A61K": 56,
+      "G06F": 47,
+      "C07D": 39,
+      "B60L": 30
+    }
+  }
+}
